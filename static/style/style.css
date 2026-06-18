@@ -13,17 +13,38 @@ body{
 input{
     background-color: orange;
     padding: 5px;
-    border-radius: 2px;
+    border: 2px solid rgb(0, 0, 0);
 }
 button{
     background-color: orange;
     color: gray;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font: 20px;
-    border: 2px solid orange;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 2px;
     padding: 5px;
 }
+button:hover{
+    background-color: rgb(206, 148, 39);
+    color: white;
+    cursor: pointer;
+}
 b{
     color: rgb(75, 55, 19);
+}
+img{
+    border: 4px solid rgb(164, 126, 56) ;
+}
+.Menu{
+    background-color: rgb(188, 143, 58);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+a{
+    font-family: 'Cinzel', serif;
+    color: rgb(104, 92, 92);
+    text-decoration: none;
 }

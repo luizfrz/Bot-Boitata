@@ -3,11 +3,13 @@ import time
 from pathlib import Path
 import random
 
-BASE_DIR = Path(__file__).parent
+# Terminal
 
-with open(BASE_DIR / "intents.json", "r", encoding="utf-8") as file:
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+with open(BASE_DIR / "json" / "intents.json", "r", encoding="utf-8") as file:
     intents = json.load(file)
-
+    
 def inter_Int(msg):
     msg = msg.lower()
 
@@ -33,7 +35,7 @@ while True:
     time.sleep(0.8)
     resposta = response(msg)
 
-    print(f"BOT - Boitata: {resposta}")
+    print(f"Boitata {resposta}")
 
     if msg.lower() in ["sair", "tchau"]:
         break

@@ -1,14 +1,19 @@
-
 from flask import Flask, render_template, request, jsonify 
 from pathlib import Path
 import json
 import random
 
-app = Flask(__name__)
+# Web
 
-BASE_DIR = Path(__file__).parent
+app = Flask(
+    __name__,
+    template_folder="../templates",
+    static_folder="../static"
+)
 
-with open(BASE_DIR / "intents.json", "r", encoding="utf-8") as file:
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+with open(BASE_DIR  / "json" / "intents.json", "r", encoding="utf-8") as file:
     intents = json.load(file)
 
 def inter_Int(msg):
@@ -26,7 +31,7 @@ def response(msg):
 
     if intent:
         return random.choice(intents[intent]["responses"])
-    return "Desculpe, não entendi sua pergunta."
+    return "nao existe essa resposta..."
 
 @app.route("/")
 
