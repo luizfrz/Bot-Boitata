@@ -1,0 +1,114 @@
+{
+  "saudacao": {
+    "patterns": [
+      "oi",
+      "olá",
+      "bom dia",
+      "boa tarde",
+      "boa noite",
+      "fala"
+    ],
+    "responses": [
+      "Seja bem-vindo! Sou boitata um BOT que fala sobre boitata BRAZIL."
+    ]
+  },
+  "despedida": {
+    "patterns": [
+      "tchau",
+      "até logo",
+      "falou",
+      "até mais",
+      "encerrar",
+      "sair"
+    ],
+    "responses": [
+      "Tchau.. nao esqueca! Continue lendo sobre boitata: https://medium.com/@boitatabrazil/boitata-brazil-c4e102ff525d",
+      "Tchau! Volte sempre."
+    ]
+  },
+  "agradecimento": {
+    "patterns": [
+      "obrigado",
+      "obrigada",
+      "valeu",
+      "agradeço",
+      "muito obrigado"
+    ],
+    "responses": [
+      "De nada!",
+      "Fico feliz em ajudar.",
+      "Sempre à disposição."
+    ]
+  },
+  "SobreBOI": {
+    "patterns": [
+      "boitata",
+      "Vamos falar sobre o boitata",
+      "Boitata",
+      "O que seria boitata?"
+    ],
+    "responses": [
+      "vamos falar sobre o boitata, saiba mais lendo aqui"
+    ]
+  },
+ "Fundada": {
+    "patterns": [
+      "Como nasceu",
+      "Criado"
+    ],
+    "responses": [
+      "no final de 2018, num dos encontros dos eliEzer, na casa de Daniel Brito, estávamos conversando sobre poesia, cibercultura e a ciência de dados \n quando Dani Wega fez a seguinte proposta: \n por que vocês não criam um grupo de pesquisa que mergulhe nesse tema tão em voga : A Ciência de Dado"
+    ]
+  },
+ "Criadores": {
+    "patterns": [
+      "Membros"
+    ],
+    "responses": [
+      " clã formado por 4 físicos-poetas: \n Mardônio França \n Daniel Brito \n Lucas Miranda \n Luan Misael."
+    ]
+  },
+ "Participantes": {
+    "patterns": [
+      "Participantes"
+    ],
+    "responses": [
+      " Seguintes Participantes: \n Mardônio França \n Ludvic Camacho \n Ramon Chave \n  Vinicius Sampaio \n Lara Hissa \n Lucas Miranda \n Daniel Brito \n Luan Misael \n Paulo Bruno"
+    ]
+  },
+ "Conteudos": {
+    "patterns": [
+      "Me indica conteudos",
+      "conteudos"
+    ],
+    "responses": [
+      "claro, mas tenho diversos conteudos! Qual deseja saber? \n machine learning \n  deep learning \n  datascience "
+    ]
+  },
+ "MachineLearning": {
+    "patterns": [
+      "machine learning"
+    ],
+    "responses": [
+      "Aprendizado de máquina (ML) é um subconjunto de inteligência artificial onde os sistemas de computador aprendem com os dados e melhoram seu desempenho ao longo do tempo, em vez de depender de programação explícita e codificada. Ele alimenta tecnologias cotidianas, como filtros de spam de e-mail, recomendações de streaming e direção autônoma "
+    ]
+  },
+ "Deeplearning": {
+    "patterns": [
+      "Deeplearning",
+      "Rede neural"
+    ],
+    "responses": [
+      "Aprendizado de máquina (ML) é um subconjunto de inteligência artificial onde os sistemas de computador aprendem com os dados e melhoram seu desempenho ao longo do tempo, em vez de depender de programação explícita e codificada. Ele alimenta tecnologias cotidianas, como filtros de spam de e-mail, recomendações de streaming e direção autônoma "
+    ]
+  },
+ "dataScience": {
+    "patterns": [
+      "bebado quantico",
+      "quantum walk)"
+    ],
+    "responses": [
+      "O conceito de bêbado quântico geralmente se refere à Caminhada Quântica (do inglês quantum walk), uma versão quântica do clássico problema do andar do bêbado (random walk) usado para explicar como a computação quântica supera os computadores tradicionais"
+    ]
+  }
+}

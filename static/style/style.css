@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+*{
+    padding: 0%;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Cinzel', serif;
+}
+body{
+    background-color: rgb(215, 159, 56);
+}
+input{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 2px;
+}
+button{
+    background-color: orange;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 20px;
+    border: 2px solid orange;
+    border-radius: 2px;
+    padding: 5px;
+}
+b{
+    color: rgb(75, 55, 19);
+}
