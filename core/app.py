@@ -1,9 +1,8 @@
 from flask import Flask, render_template, request, jsonify 
 from pathlib import Path
 import json
+import time
 import random
-
-# Web
 
 app = Flask(
     __name__,
@@ -41,11 +40,10 @@ def home():
 @app.route("/chat", methods=["POST"]) 
 def chat():
     msgr = request.json["message"]
-
     return jsonify(
         {
             "response":response(msgr)
         }
     )
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)

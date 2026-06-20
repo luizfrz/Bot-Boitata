@@ -1,5 +1,4 @@
-// const avatar = "/static/img/boitata.png";
-//  <img src="${avatar}"></img>
+const avatar = "/static/img/boitata.png";
 
 window.onload = function () {
 
@@ -33,11 +32,13 @@ async function send() {
     });
 
     let data = await response.json();
-
-    document.getElementById("chat").innerHTML += `
-        <p><b>Você:</b> ${msg}</p>
-        <p><b>Boitatá:</b> ${data.response}</p>
-    `;
+        document.getElementById("chat").innerHTML += `
+        <p><b>Você:</b> ${msg}</p>`
+        setTimeout(() => {
+        document.getElementById("chat").innerHTML += `
+          <p> <b>Boitatá:</b> ${data.response}</p>`
+        }, 2000);
+    ;
 
     input.value = "";
     input.focus();

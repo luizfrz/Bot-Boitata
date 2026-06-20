@@ -9,7 +9,16 @@
       "fala"
     ],
     "responses": [
-      "Seja bem-vindo! Sou boitata um BOT que fala sobre boitata BRAZIL."
+      "Seja bem-vindo! Sou boitata um BOT que fala sobre boitata BRAZIL.",
+      "Bem vindo, Gostaria de falar sobre boitata BRAZIL.?"
+    ]
+  },
+  "positivo": {
+    "patterns": [
+      "sim"
+    ],
+    "responses": [
+      "Boitata nasceu de um grupo de pesquisa com os principais criadores \n Mardonio Franca \n Lucas miranda"
     ]
   },
   "despedida": {
@@ -22,7 +31,7 @@
       "sair"
     ],
     "responses": [
-      "Tchau.. nao esqueca! Continue lendo sobre boitata: https://medium.com/@boitatabrazil/boitata-brazil-c4e102ff525d",
+      "Tchau.. nao esqueca! Continue lendo sobre boitata: \n https://medium.com/@boitatabrazil/boitata-brazil-c4e102ff525d",
       "Tchau! Volte sempre."
     ]
   },
@@ -38,17 +47,6 @@
       "De nada!",
       "Fico feliz em ajudar.",
       "Sempre à disposição."
-    ]
-  },
-  "SobreBOI": {
-    "patterns": [
-      "boitata",
-      "Vamos falar sobre o boitata",
-      "Boitata",
-      "O que seria boitata?"
-    ],
-    "responses": [
-      "vamos falar sobre o boitata, saiba mais lendo aqui"
     ]
   },
  "Fundada": {
@@ -82,30 +80,48 @@
       "conteudos"
     ],
     "responses": [
-      "claro, mas tenho diversos conteudos! Qual deseja saber? \n machine learning \n  deep learning \n  datascience "
+      "claro, mas tenho diversos conteudos! Qual deseja saber? \n machine learning \n  deep learning \n  datascience \n bebado quantico "
     ]
   },
  "MachineLearning": {
     "patterns": [
-      "machine learning"
+      "machine learning",
+      "machine"
     ],
     "responses": [
       "Aprendizado de máquina (ML) é um subconjunto de inteligência artificial onde os sistemas de computador aprendem com os dados e melhoram seu desempenho ao longo do tempo, em vez de depender de programação explícita e codificada. Ele alimenta tecnologias cotidianas, como filtros de spam de e-mail, recomendações de streaming e direção autônoma "
+    ]
+  },
+  "Questionado": {
+    "patterns": [
+      "Rede"
+    ],
+    "responses": [
+      "Parece que voce digitou sobre rede, mas qual deseja saber?  de computadores  ou \n  neural"
     ]
   },
  "Deeplearning": {
     "patterns": [
       "Deeplearning",
-      "Rede neural"
+      "neural"
     ],
     "responses": [
       "Aprendizado de máquina (ML) é um subconjunto de inteligência artificial onde os sistemas de computador aprendem com os dados e melhoram seu desempenho ao longo do tempo, em vez de depender de programação explícita e codificada. Ele alimenta tecnologias cotidianas, como filtros de spam de e-mail, recomendações de streaming e direção autônoma "
     ]
   },
+   "Computadores": {
+    "patterns": [
+      "Computadores"
+    ],
+    "responses": [
+      "Uma rede de computadores é um conjunto de dispositivos interconectados que compartilham recursos e informações. Ela permite a comunicação entre computadores, celulares e periféricos, viabilizando o acesso à internet, troca de arquivos e uso de serviços digitais"
+    ]
+  },
  "dataScience": {
     "patterns": [
       "bebado quantico",
-      "quantum walk)"
+      "quantum walk",
+      "bebado"
     ],
     "responses": [
       "O conceito de bêbado quântico geralmente se refere à Caminhada Quântica (do inglês quantum walk), uma versão quântica do clássico problema do andar do bêbado (random walk) usado para explicar como a computação quântica supera os computadores tradicionais"

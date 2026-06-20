@@ -3,8 +3,6 @@ import time
 from pathlib import Path
 import random
 
-# Terminal
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 with open(BASE_DIR / "json" / "intents.json", "r", encoding="utf-8") as file:
@@ -26,16 +24,23 @@ def response(msg):
     if intent:
         return random.choice(intents[intent]["responses"])
 
-        
-    return "Desculpe, não entendi sua pergunta."
+    return "nao existe essa resposta..."
 
 while True:
     msg = input("Voce: ")
-    print("gerando respostas...")
+    Generated = [ 
+        "Gerando uma resposta...",
+        "Estou gerando uma resposta...",
+        "Buscando  uma resposta",
+        "Espere um momento... estou gerando",
+        "Ok, aqui esta sua resposta..."
+    ]
+
+    print(random.choice(Generated))
     time.sleep(0.8)
     resposta = response(msg)
 
-    print(f"Boitata {resposta}")
+    print(f"Boitata: {resposta}")
 
     if msg.lower() in ["sair", "tchau"]:
         break

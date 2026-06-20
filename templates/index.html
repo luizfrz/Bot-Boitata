@@ -11,18 +11,21 @@
 </head>
 <body>
 <div class="Menu">
-<a href="https://brasilescola.uol.com.br/folclore/boitata.htm">Boitata</a>
+<a href="https://brasilescola.uol.com.br/folclore/boitata.htm">Sobre Boitata</a>
 </div>
 
 <h1>Boitata ChatBot</h1>
 <div>
-<img src="{{ url_for('static', filename='img/boitata.png') }}" width="20%">
+<img class="Img" src="{{ url_for('static', filename='img/boitata.png') }}" width="20%">
+
 </div>
+
 <br>
 <input type="text" id="msg">
 <button onclick="send()">Enviar</button>
 
-<div id="chat"></div>
+<div id="chat" class="Plan"></div>
+
 
 <!-- 
 <a href="">Artigos do boitata</a> -->
