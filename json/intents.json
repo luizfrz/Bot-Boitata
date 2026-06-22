@@ -1,130 +1,67 @@
 {
-  "saudacao": {
+  "Iniciando": {
     "patterns": [
       "oi",
       "olá",
-      "bom dia",
-      "boa tarde",
-      "boa noite",
-      "fala"
+      "fala",
+      "eae",
+      "e ai"
     ],
     "responses": [
-      "Seja bem-vindo! Sou boitata um BOT que fala sobre boitata BRAZIL.",
-      "Bem vindo, Gostaria de falar sobre boitata BRAZIL.?"
+      "Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Bem vindo, Gostaria de falar sobre algum assunto?"
     ]
   },
-  "positivo": {
-    "patterns": [
-      "sim"
-    ],
-    "responses": [
-      "Boitata nasceu de um grupo de pesquisa com os principais criadores \n Mardonio Franca \n Lucas miranda"
-    ]
-  },
-  "despedida": {
+  "Adeus": {
     "patterns": [
       "tchau",
-      "até logo",
+      "Nao",
       "falou",
-      "até mais",
-      "encerrar",
-      "sair"
+      "bye"
     ],
     "responses": [
-      "Tchau.. nao esqueca! Continue lendo sobre boitata: \n https://medium.com/@boitatabrazil/boitata-brazil-c4e102ff525d",
-      "Tchau! Volte sempre."
+      "Tchau! Fique à vontade para voltar quando quiser."
     ]
   },
-  "agradecimento": {
+  "Conteudos": {
     "patterns": [
-      "obrigado",
-      "obrigada",
-      "valeu",
-      "agradeço",
-      "muito obrigado"
+      "mostre conteudos",
+      "conteudos",
+      "menu",
+      "Sim"
     ],
     "responses": [
-      "De nada!",
-      "Fico feliz em ajudar.",
-      "Sempre à disposição."
+      "O que você deseja saber? \n 1 - Machine Learning\n2 - Deep Learning\n3 - Data Science\n4 - Saber mais..."
     ]
   },
- "Fundada": {
+  "Machine Learning": {
     "patterns": [
-      "Como nasceu",
-      "Criado"
-    ],
-    "responses": [
-      "no final de 2018, num dos encontros dos eliEzer, na casa de Daniel Brito, estávamos conversando sobre poesia, cibercultura e a ciência de dados \n quando Dani Wega fez a seguinte proposta: \n por que vocês não criam um grupo de pesquisa que mergulhe nesse tema tão em voga : A Ciência de Dado"
-    ]
-  },
- "Criadores": {
-    "patterns": [
-      "Membros"
-    ],
-    "responses": [
-      " clã formado por 4 físicos-poetas: \n Mardônio França \n Daniel Brito \n Lucas Miranda \n Luan Misael."
-    ]
-  },
- "Participantes": {
-    "patterns": [
-      "Participantes"
-    ],
-    "responses": [
-      " Seguintes Participantes: \n Mardônio França \n Ludvic Camacho \n Ramon Chave \n  Vinicius Sampaio \n Lara Hissa \n Lucas Miranda \n Daniel Brito \n Luan Misael \n Paulo Bruno"
-    ]
-  },
- "Conteudos": {
-    "patterns": [
-      "Me indica conteudos",
-      "conteudos"
-    ],
-    "responses": [
-      "claro, mas tenho diversos conteudos! Qual deseja saber? \n machine learning \n  deep learning \n  datascience \n bebado quantico "
-    ]
-  },
- "MachineLearning": {
-    "patterns": [
+      "1",
       "machine learning",
-      "machine"
+      "aprendizagem de máquina"
     ],
     "responses": [
-      "Aprendizado de máquina (ML) é um subconjunto de inteligência artificial onde os sistemas de computador aprendem com os dados e melhoram seu desempenho ao longo do tempo, em vez de depender de programação explícita e codificada. Ele alimenta tecnologias cotidianas, como filtros de spam de e-mail, recomendações de streaming e direção autônoma "
+      "Machine Learning é uma área da Inteligência Artificial que permite que computadores aprendam com dados sem serem programados explicitamente para cada tarefa."
     ]
   },
-  "Questionado": {
+  "Deep Learning": {
     "patterns": [
-      "Rede"
+      "2",
+      "deep learning",
+      "rede neural"
     ],
     "responses": [
-      "Parece que voce digitou sobre rede, mas qual deseja saber?  de computadores  ou \n  neural"
+      "Deep Learning é um ramo do Machine Learning baseado em redes neurais artificiais profundas, muito utilizado em visão computacional e processamento de linguagem natural."
     ]
   },
- "Deeplearning": {
+  "Data Science": {
     "patterns": [
-      "Deeplearning",
-      "neural"
+      "3",
+      "data science",
+      "ciencia de dados"
     ],
     "responses": [
-      "Aprendizado de máquina (ML) é um subconjunto de inteligência artificial onde os sistemas de computador aprendem com os dados e melhoram seu desempenho ao longo do tempo, em vez de depender de programação explícita e codificada. Ele alimenta tecnologias cotidianas, como filtros de spam de e-mail, recomendações de streaming e direção autônoma "
-    ]
-  },
-   "Computadores": {
-    "patterns": [
-      "Computadores"
-    ],
-    "responses": [
-      "Uma rede de computadores é um conjunto de dispositivos interconectados que compartilham recursos e informações. Ela permite a comunicação entre computadores, celulares e periféricos, viabilizando o acesso à internet, troca de arquivos e uso de serviços digitais"
-    ]
-  },
- "dataScience": {
-    "patterns": [
-      "bebado quantico",
-      "quantum walk",
-      "bebado"
-    ],
-    "responses": [
-      "O conceito de bêbado quântico geralmente se refere à Caminhada Quântica (do inglês quantum walk), uma versão quântica do clássico problema do andar do bêbado (random walk) usado para explicar como a computação quântica supera os computadores tradicionais"
+      "Data Science é a área que utiliza estatística, programação e análise de dados para extrair conhecimento e gerar insights."
     ]
   }
 }

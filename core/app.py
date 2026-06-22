@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, jsonify 
 from pathlib import Path
 import json
-import time
 import random
 
 app = Flask(
@@ -30,7 +29,7 @@ def response(msg):
 
     if intent:
         return random.choice(intents[intent]["responses"])
-    return "nao existe essa resposta..."
+    return "Ocorreu um erro, nao consegui localizar uma resposta..."
 
 @app.route("/")
 

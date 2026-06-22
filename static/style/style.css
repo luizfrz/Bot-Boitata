@@ -17,6 +17,8 @@ body{
 }
 input{
     background-color: orange;
+    font-family: 'Cinzel', serif;
+    color: black;
     padding: 5px;
     border: 2px solid rgb(0, 0, 0);
 }
@@ -33,7 +35,7 @@ button:hover{
     color: white;
     cursor: pointer;
 }
-b, p{
+b, p, span{
     color: rgb(75, 55, 19);
     font-family: 'Cinzel', serif;
 }
