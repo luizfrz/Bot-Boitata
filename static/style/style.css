@@ -60,8 +60,8 @@ a:hover{
 }
 #chat{
     background-color: orange;
-    width: 20%;
     margin-left: auto;
+    width: 40%;
     margin-right: auto;
-    border-radius: 2px;
+    border-radius: 4px;
 }

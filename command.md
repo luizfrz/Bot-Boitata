@@ -4,7 +4,7 @@
 ## Cria ambiente 
 python3 -m venv venv
 ##  Ativa
-source .venv/bin/activate
+source venv/bin/activate
 
 ## Instala biblioteca
 pip install Flask 
