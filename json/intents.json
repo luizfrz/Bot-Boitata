@@ -1,39 +1,4 @@
 {
-  "Iniciando": {
-    "patterns": [
-      "oi",
-      "olá",
-      "fala",
-      "eae",
-      "e ai"
-    ],
-    "responses": [
-      "Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
-      "Bem vindo, Gostaria de falar sobre algum assunto?"
-    ]
-  },
-  "Adeus": {
-    "patterns": [
-      "tchau",
-      "Nao",
-      "falou",
-      "bye"
-    ],
-    "responses": [
-      "Tchau! Fique à vontade para voltar quando quiser."
-    ]
-  },
-  "Conteudos": {
-    "patterns": [
-      "mostre conteudos",
-      "conteudos",
-      "menu",
-      "Sim"
-    ],
-    "responses": [
-      "O que você deseja saber? \n 1 - Machine Learning\n2 - Deep Learning\n3 - Data Science\n4 - Saber mais..."
-    ]
-  },
   "Machine Learning": {
     "patterns": [
       "1",
@@ -41,9 +6,10 @@
       "aprendizagem de máquina"
     ],
     "responses": [
-      "Machine Learning é uma área da Inteligência Artificial que permite que computadores aprendam com dados sem serem programados explicitamente para cada tarefa."
+      "Machine Learning é uma área da Inteligência Artificial que permite que computadores aprendam padrões a partir de dados sem serem explicitamente programados para cada situação. Existem três categorias principais: aprendizado supervisionado, não supervisionado e por reforço. Atualmente, Machine Learning é utilizado em sistemas de recomendação da Netflix, detecção de fraudes bancárias, diagnósticos médicos, reconhecimento facial e previsão de demanda em empresas."
     ]
   },
+
   "Deep Learning": {
     "patterns": [
       "2",
@@ -51,9 +17,10 @@
       "rede neural"
     ],
     "responses": [
-      "Deep Learning é um ramo do Machine Learning baseado em redes neurais artificiais profundas, muito utilizado em visão computacional e processamento de linguagem natural."
+      "Deep Learning é um subconjunto do Machine Learning baseado em redes neurais artificiais com múltiplas camadas. Essas redes conseguem identificar características complexas em grandes volumes de dados. Modelos como ChatGPT, Gemini e Claude utilizam Deep Learning para compreender e gerar texto. A tecnologia também é utilizada em carros autônomos, reconhecimento de voz, tradução automática e geração de imagens."
     ]
   },
+
   "Data Science": {
     "patterns": [
       "3",
@@ -61,7 +28,143 @@
       "ciencia de dados"
     ],
     "responses": [
-      "Data Science é a área que utiliza estatística, programação e análise de dados para extrair conhecimento e gerar insights."
+      "Data Science é uma área multidisciplinar que combina estatística, matemática, programação e conhecimento de negócios para transformar dados em informações úteis. Um cientista de dados coleta, limpa, analisa e interpreta dados para auxiliar na tomada de decisões. Ferramentas populares incluem Python, Pandas, NumPy, Scikit-Learn, Power BI e Tableau."
+    ]
+  },
+
+  "Inteligencia Artificial": {
+    "patterns": [
+      "4",
+      "inteligencia artificial",
+      "ia"
+    ],
+    "responses": [
+      "A Inteligência Artificial busca desenvolver sistemas capazes de realizar tarefas que normalmente exigiriam inteligência humana. Isso inclui aprendizado, raciocínio, reconhecimento de padrões, tomada de decisões e compreensão de linguagem. Atualmente a IA está presente em assistentes virtuais, mecanismos de busca, diagnósticos médicos, robótica e sistemas financeiros."
+    ]
+  },
+
+  "Fisica Quantica": {
+    "patterns": [
+      "5",
+      "fisica quantica",
+      "quantica"
+    ],
+    "responses": [
+      "A Física Quântica estuda o comportamento da matéria e da energia em escalas atômicas e subatômicas. Diferente da física clássica, partículas podem existir em múltiplos estados simultaneamente através da superposição quântica. Outro fenômeno importante é o entrelaçamento quântico, onde partículas permanecem conectadas independentemente da distância. Esses conceitos são a base da computação quântica moderna."
+    ]
+  },
+
+  "Relatividade": {
+    "patterns": [
+      "6",
+      "relatividade",
+      "einstein"
+    ],
+    "responses": [
+      "A Teoria da Relatividade foi desenvolvida por Albert Einstein e está dividida em Relatividade Especial e Geral. A Relatividade Especial demonstra que tempo e espaço são relativos ao observador, enquanto a Relatividade Geral descreve a gravidade como uma curvatura do espaço-tempo. Tecnologias modernas como o GPS dependem de correções relativísticas para fornecer localização precisa."
+    ]
+  },
+
+  "Big Data": {
+    "patterns": [
+      "7",
+      "big data"
+    ],
+    "responses": [
+      "Big Data refere-se ao armazenamento e processamento de grandes volumes de dados caracterizados pelos 5Vs: Volume, Velocidade, Variedade, Veracidade e Valor. Empresas como Google, Amazon e Meta processam petabytes de dados diariamente para melhorar produtos, personalizar anúncios e prever comportamentos dos usuários."
+    ]
+  },
+
+  "Python": {
+    "patterns": [
+      "8",
+      "python"
+    ],
+    "responses": [
+      "Python é uma linguagem de programação criada por Guido van Rossum em 1991. Seu foco é simplicidade e produtividade. Atualmente é amplamente utilizada em desenvolvimento web, automação, inteligência artificial, análise de dados, computação científica e desenvolvimento de APIs. Bibliotecas populares incluem Pandas, NumPy, Flask, Django, TensorFlow e PyTorch."
+    ]
+  },
+
+  "Cloud Computing": {
+    "patterns": [
+      "9",
+      "cloud computing",
+      "nuvem"
+    ],
+    "responses": [
+      "Cloud Computing é um modelo de computação que disponibiliza recursos como servidores, bancos de dados e armazenamento através da internet. Os principais provedores são AWS, Microsoft Azure e Google Cloud. Entre suas vantagens estão escalabilidade, redução de custos com infraestrutura e alta disponibilidade."
+    ]
+  },
+
+  "Ciberseguranca": {
+    "patterns": [
+      "10",
+      "ciberseguranca",
+      "seguranca digital"
+    ],
+    "responses": [
+      "Cibersegurança é o conjunto de práticas e tecnologias utilizadas para proteger sistemas, redes e dados contra ataques digitais. Entre as principais ameaças estão phishing, ransomware, engenharia social, vazamento de dados e ataques DDoS. Boas práticas incluem autenticação multifator, senhas fortes e atualizações frequentes de software."
+    ]
+  },
+
+  "Banco de Dados": {
+    "patterns": [
+      "11",
+      "banco de dados",
+      "sql"
+    ],
+    "responses": [
+      "Bancos de dados são sistemas responsáveis por armazenar, organizar e recuperar informações de forma eficiente. Os bancos relacionais utilizam SQL e incluem MySQL, PostgreSQL e SQL Server. Já os bancos NoSQL, como MongoDB e Redis, são mais adequados para dados não estruturados e aplicações de grande escala."
+    ]
+  },
+
+  "Internet das Coisas": {
+    "patterns": [
+      "12",
+      "iot",
+      "internet das coisas"
+    ],
+    "responses": [
+      "Internet das Coisas, ou IoT, é a conexão de dispositivos físicos à internet para coleta e troca de dados. Exemplos incluem sensores industriais, relógios inteligentes, câmeras de segurança, carros conectados e dispositivos domésticos inteligentes. A IoT desempenha papel fundamental em cidades inteligentes e automação industrial."
+    ]
+  },
+
+  "Buracos Negros": {
+    "patterns": [
+      "buraco negro",
+      "buracos negros"
+    ],
+    "responses": [
+      "Buracos negros são regiões do espaço-tempo com gravidade tão intensa que nada consegue escapar, nem mesmo a luz. Eles podem se formar após o colapso de estrelas massivas. Em 2019, cientistas divulgaram a primeira imagem real de um buraco negro utilizando o projeto Event Horizon Telescope, um marco histórico para a astronomia."
+    ]
+  },
+
+  "Computacao Quantica": {
+    "patterns": [
+      "computacao quantica",
+      "computador quantico"
+    ],
+    "responses": [
+      "A Computação Quântica utiliza qubits em vez de bits tradicionais. Enquanto um bit assume apenas os valores 0 ou 1, um qubit pode representar múltiplos estados simultaneamente devido à superposição quântica. Empresas como IBM, Google e Microsoft investem bilhões nessa tecnologia, que poderá revolucionar áreas como criptografia, simulação molecular e otimização."
+    ]
+  },
+
+  "Redes Neurais": {
+    "patterns": [
+      "redes neurais",
+      "rede neural artificial"
+    ],
+    "responses": [
+      "Redes neurais artificiais são modelos computacionais inspirados no funcionamento dos neurônios biológicos. Elas recebem dados de entrada, processam informações através de camadas ocultas e geram resultados. São utilizadas em reconhecimento de voz, classificação de imagens, sistemas de recomendação e modelos de linguagem como o ChatGPT."
+    ]
+  },
+
+  "Visao Computacional": {
+    "patterns": [
+      "visao computacional"
+    ],
+    "responses": [
+      "Visão Computacional é a área da Inteligência Artificial que permite que computadores interpretem imagens e vídeos. Aplicações incluem reconhecimento facial, inspeção industrial automatizada, veículos autônomos, análise médica por imagens e monitoramento por câmeras inteligentes."
     ]
   }
 }
