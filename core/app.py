@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify 
 from pathlib import Path
+from rapidfuzz import fuzz
 import json
 import random
 import os
@@ -16,21 +17,29 @@ with open(BASE_DIR  / "json" / "intents.json", "r", encoding="utf-8") as file:
     intents = json.load(file)
 
 def inter_Int(msg):
-    msg = msg.lower()
+    better_Intent = None
+    more_Score = 0
 
     for intent, dados in intents.items():
         for pattern in dados["patterns"]:
-            if pattern.lower() in msg:
-                return intent
+            score = fuzz.ratio(msg.lower(), pattern.lower())
+
+            if score > more_Score:
+                more_Score = score
+                better_Intent = intent
+            
+            if more_Score >= 70:
+                return better_Intent
 
     return None
+    
 
 def response(msg):
     intent = inter_Int(msg)
 
     if intent:
         return random.choice(intents[intent]["responses"])
-    return "Ocorreu um erro, nao consegui localizar uma resposta..."
+    return "ainda nao existe uma resposta definida para isso..."
 
 @app.route("/")
 
