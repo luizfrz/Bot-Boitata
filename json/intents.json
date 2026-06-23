@@ -1,4 +1,48 @@
-{
+{ 
+   "Iniciando": {
+    "patterns": [
+      "oi",
+      "olá",
+      "fala",
+      "eae",
+      "e ai"
+    ],
+    "responses": [
+      "Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Bem vindo, Gostaria de falar sobre algum assunto?"
+    ]
+  },
+  "Adeus": {
+    "patterns": [
+      "tchau",
+      "Nao",
+      "falou",
+      "bye"
+    ],
+    "responses": [
+      "Tchau! Fique à vontade para voltar quando quiser."
+    ]
+  },
+  "Conteudos": {
+    "patterns": [
+      "mostre conteudos",
+      "conteudos",
+      "menu",
+      "Sim"
+    ],
+    "responses": [
+      "O que você deseja saber? \n 1 - Machine Learning\n2 - Deep Learning\n3 - Data Science\n  Saber mais..."
+    ]
+  },
+    "Know": {
+    "patterns": [
+      "saber mais"
+    ],
+    "responses": [
+       "Temos os seguintes conteúdos disponíveis:\n\n  Inteligencia Artificial\n - Fisica Quantica\n  - Relatividade\n - Big Data\n - Python\n - Cloud Computing\n - Ciberseguranca\n  - Banco de Dados\n  - Internet das Coisas\n  - Buracos Negros\n  - Computacao Quantica\n  - Redes Neurais\n - Visao Computacional"
+    ]
+  },
+  
   "Machine Learning": {
     "patterns": [
       "1",

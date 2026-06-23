@@ -1,7 +1,6 @@
 let canSend = true;
 
 window.onload = function () {
-
     const input = document.getElementById("msg");
 
     input.addEventListener("keydown", function (event) {
@@ -11,15 +10,14 @@ window.onload = function () {
             send();
         }
 
-        if (event.key === "Delete") {
-            event.preventDefault();
-            
-            document.getElementById("chat").innerHTML = "";
-        }
-
     });
 
 };
+
+function clearChat() {
+    if (!canSend) return;
+    document.getElementById("chat").innerHTML = "";
+}
 
 async function send() {
 

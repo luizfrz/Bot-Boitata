@@ -4,30 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='img/boitata.png') }}" type="image/x-icon"> 
     <title>Boitata - BRAZIl</title>
 </head>
 <body>
 <div class="Menu">
-<a href="https://brasilescola.uol.com.br/folclore/boitata.htm">Sobre Boitata</a>
+    <a href="https://medium.com/@boitatabrazil/boitat%C3%A1-lab-2022-c274ec95170e">Sobre Boitata</a>
 </div>
 
-<h1>Boitata ChatBot</h1>
-<div>
-<img class="Img" src="{{ url_for('static', filename='img/boitata.png') }}" width="20%">
-
+    <h1>Boitata ChatBot</h1>
+        <img src="{{ url_for('static', filename='img/boitata.png') }}" alt="Boitatá">
+    <h3>Me faça alguma pergunta</h3>
+    
+    <div id="chat"></div>
+    <div class="input-area">
+        <input type="text" id="msg" placeholder="Digite algo que queira saber..">
+        <button onclick="send()">Enviar</button>
+        <button onclick="clearChat()" id="clear" title="Limpar conversa">Limpar</button>
+    </div>
 </div>
 
-<br>
-<input type="text" id="msg">
-<button onclick="send()">Enviar</button>
-
-<div id="chat" class="Plan"></div>
-
-
-<!-- 
-<a href="">Artigos do boitata</a> -->
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>
