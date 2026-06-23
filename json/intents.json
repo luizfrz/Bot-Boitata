@@ -1,5 +1,5 @@
 { 
-   "Iniciando": {
+   "Initilization": {
     "patterns": [
       "oi",
       "olá",
@@ -12,7 +12,7 @@
       "Bem vindo, Gostaria de falar sobre algum assunto?"
     ]
   },
-  "Adeus": {
+  "GoodBye": {
     "patterns": [
       "tchau",
       "Nao",
@@ -23,7 +23,7 @@
       "Tchau! Fique à vontade para voltar quando quiser."
     ]
   },
-  "Conteudos": {
+  "Content": {
     "patterns": [
       "mostre conteudos",
       "conteudos",
