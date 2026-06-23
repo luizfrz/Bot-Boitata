@@ -9,12 +9,6 @@ O bot é capaz de interagir com os usuários por meio dessas respostas cadastrad
 ## Estrutura
 ```text
 Bot-Boitata/
-├── Script/
-│   └── inicializador.sh          # Script para ativar o ambiente
-│
-├── md/
-│   └── command.md               # Documentação e passos de utilização
-│
 ├── Source/
 │   ├── Core/
 │   │   ├── main.py              # Execução via terminal
