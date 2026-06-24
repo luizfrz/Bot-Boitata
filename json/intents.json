@@ -3,13 +3,42 @@
     "patterns": [
       "oi",
       "olá",
-      "fala",
       "eae",
-      "e ai"
+      "E ai"
     ],
     "responses": [
       "Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
       "Bem vindo, Gostaria de falar sobre algum assunto?"
+    ]
+  },
+    "Goodmorning": {
+    "patterns": [
+     "Bom dia",
+     "Bom dia boitata"
+    ],
+    "responses": [
+      "Bom dia, Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Bom dia, Bem vindo, Gostaria de falar sobre algum assunto?"
+    ]
+  },
+    "Goodafternoon": {
+    "patterns": [
+     "Boa tarde",
+     "Boa tarde boitata"
+    ],
+    "responses": [
+      "Boa tarde, Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Boa tarde, Bem vindo, Gostaria de falar sobre algum assunto?"
+    ]
+  },
+    "Goodnight": {
+    "patterns": [
+     "Boa Noite",
+     "Boa Noite boitata"
+    ],
+    "responses": [
+      "Boa Noite, Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Boa Noite, Bem vindo, Gostaria de falar sobre algum assunto?"
     ]
   },
   "GoodBye": {
