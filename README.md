@@ -6,7 +6,7 @@ Foi desenvolvido um chatbot voltado para assuntos relacionados à Física, Ciên
 O bot é capaz de interagir com os usuários por meio dessas respostas cadastradas, identificando intenções e retornando informações compatíveis com o contexto da conversa. Além disso, sua base de conhecimento pode ser facilmente expandida, bastando adicionar novos conteúdos ao arquivo JSON, sem necessidade de alterar o código-fonte da aplicação. 
 
 
-## Estrutura
+## Estrutura de pastas 
 ```text
 Bot-Boitata/
 ├── Source/
@@ -32,3 +32,30 @@ Bot-Boitata/
 │
 └── README.md                    # Documentação do projeto
 ```
+
+## Criação de um ambiente
+Criar ambiente
+```text
+python3 -m venv ./venv
+```
+Ativar ambiente
+```text
+source venv/bin/activate
+```
+
+## Instale Dependência
+```text
+pip install -r requirements.txt
+```
+
+## Rode o projeto
+Versão terminal
+```text
+python3 main.py
+```
+
+Versão web
+```text
+python3 app.py 
+```
+
