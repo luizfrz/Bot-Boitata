@@ -6,7 +6,7 @@ Foi desenvolvido um chatbot voltado para assuntos relacionados à Física, Ciên
 O bot é capaz de interagir com os usuários por meio dessas respostas cadastradas, identificando intenções e retornando informações compatíveis com o contexto da conversa. Além disso, sua base de conhecimento pode ser facilmente expandida, bastando adicionar novos conteúdos ao arquivo JSON, sem necessidade de alterar o código-fonte da aplicação. 
 
 
-## Estrutura de pastas 
+## Estrutura
 ```text
 Bot-Boitata/
 ├── Source/
