@@ -42,13 +42,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# Desativar ambiente (venv)
+## Desativar ambiente (venv)
 ```bash
 deactivate 
 ```
 
 ## Como rodar o projeto 
-**Descrição:** Projeto chatbot - boitatá, existem dois tipos de forma de rodar ele, uma delas sendo via terminal ou web, ambos **necessita** ter ambiente ativo. 
+**Descrição:** Projeto chatbot - boitatá, existem duas forma de rodar, uma delas sendo via terminal ou web, ambos **necessita** ter ambiente ativo (venv). 
 
 Versão terminal
 ```bash
