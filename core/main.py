@@ -11,8 +11,8 @@ with open(BASE_DIR / "json" / "intents.json", "r", encoding="utf-8") as file:
 def inter_Int(msg):
     msg = msg.lower()
 
-    for intent, dados in intents.items():
-        for pattern in dados["patterns"]:
+    for intent, data in intents.items():
+        for pattern in data["patterns"]:
             if pattern.lower() in msg:
                 return intent
 
@@ -24,11 +24,11 @@ def response(msg):
     if intent:
         return random.choice(intents[intent]["responses"])
 
-    return "nao existe essa resposta..."
+    return "não existe essa resposta..."
 
 while True:
     msg = input("Voce: ")
-    Generated = [ 
+    generate = [ 
         "Gerando uma resposta...",
         "Estou gerando uma resposta...",
         "Buscando  uma resposta",
@@ -36,12 +36,12 @@ while True:
         "Ok, aqui esta sua resposta..."
     ]
 
-    print(random.choice(Generated))
-    time.sleep(0.8)
+    print(random.choice(generate))
+    time.sleep(0.3)
     resposta = response(msg)
 
     print(f"Boitata: {resposta}")
 
     if msg.lower() in ["sair", "tchau"]:
-        break
+        exit
     

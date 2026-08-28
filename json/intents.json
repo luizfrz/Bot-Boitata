@@ -3,11 +3,12 @@
     "patterns": [
       "oi",
       "olá",
+      "ola",
       "eae",
       "E ai"
     ],
     "responses": [
-      "Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Seja bem-vindo! Sou BOT chamado Boitatá que fala sobre tecnologia.",
       "Bem vindo, Gostaria de falar sobre algum assunto?"
     ]
   },
@@ -17,7 +18,7 @@
      "Bom dia boitata"
     ],
     "responses": [
-      "Bom dia, Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Bom dia, Sou BOT chamado Boitatá que fala sobre tecnologia.",
       "Bom dia, Bem vindo, Gostaria de falar sobre algum assunto?"
     ]
   },
@@ -27,7 +28,7 @@
      "Boa tarde boitata"
     ],
     "responses": [
-      "Boa tarde, Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Boa tarde, Sou BOT chamado Boitatá que fala sobre tecnologia.",
       "Boa tarde, Bem vindo, Gostaria de falar sobre algum assunto?"
     ]
   },
@@ -37,7 +38,7 @@
      "Boa Noite boitata"
     ],
     "responses": [
-      "Boa Noite, Seja bem-vindo! Sou boitata um BOT que fala sobre tecnologia.",
+      "Boa Noite, Sou BOT chamado Boitatá que fala sobre tecnologia.",
       "Boa Noite, Bem vindo, Gostaria de falar sobre algum assunto?"
     ]
   },

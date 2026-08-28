@@ -1,61 +1,66 @@
-# CHATBOT - BOITATA  🐍
+# CHATBOT - BOITATÁ  🐍
   <img width="333" height="381" alt="Boitatá" src="https://github.com/user-attachments/assets/ad3fc9dc-eea3-408a-8f19-9568c462bc7e">
 
+## Sobre projeto
 Foi desenvolvido um chatbot voltado para assuntos relacionados à Física, Ciência de Dados e Tecnologia. O sistema utiliza uma base de conhecimento armazenada em um arquivo JSON, contendo perguntas, palavras-chave e respostas pré-definidas.
 
 O bot é capaz de interagir com os usuários por meio dessas respostas cadastradas, identificando intenções e retornando informações compatíveis com o contexto da conversa. Além disso, sua base de conhecimento pode ser facilmente expandida, bastando adicionar novos conteúdos ao arquivo JSON, sem necessidade de alterar o código-fonte da aplicação. 
 
 
-## Estrutura
+## Estrutura do projeto
 ```text
 Bot-Boitata/
-├── Source/
-│   ├── Core/
-│   │   ├── main.py              # Execução via terminal
-│   │   └── app.py               # Execução via interface web
-│   │
-│   ├── Json/
-│   │   └── intents.json         # Base de intenções e respostas
-│   │
+│   ├── core/
+│   │   ├── main.py             
+│   │   └── app.py               
+│   ├── json/
+│   │   └── intents.json         
 │   ├── static/
 │   │   ├── style/
-│   │   │   └── style.css        # Estilização da aplicação
-│   │   │
+│   │   │   └── style.css       
 │   │   ├── img/
-│   │   │   └── boitata.png      # Avatar do chatbot
-│   │   │
+│   │   │   └── boitata.png      
 │   │   └── js/
-│   │       └── app.js           # Lógica e interações do chat
-│   │
+│   │       └── app.js           
 │   └── Templates/
-│       └── index.html           # Página principal da aplicação
-│
-└── README.md                    # Documentação do projeto
+│      └── index.html          
 ```
+## Como utilizar 
 
-## Criação de um ambiente
-Criar ambiente
-```text
+### Crie um ambiente
+
+```bash
 python3 -m venv ./venv
 ```
-Ativar ambiente
-```text
+### Ative ambiente 
+```bash
 source venv/bin/activate
 ```
 
 ## Instale Dependência
-```text
+```bash
 pip install -r requirements.txt
 ```
 
-## Rode o projeto
+# Desativar ambiente (venv)
+```bash
+deactivate 
+```
+
+## Como rodar o projeto 
+**Descrição:** Projeto chatbot - boitatá, existem dois tipos de forma de rodar ele, uma delas sendo via terminal ou web, ambos **necessita** ter ambiente ativo. 
+
 Versão terminal
-```text
+```bash
 python3 main.py
 ```
-
 Versão web
-```text
+```bash
 python3 app.py 
 ```
-
+## Pipeline sobre projeto
+```mermaid
+flowchart LR
+    B[(Envia a pergunta)]
+    B -->|Busca similiaridade no arquivo JSON | C[(Responde conforme a palavra chave definida na pergunta )]
+```

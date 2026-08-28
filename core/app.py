@@ -20,8 +20,8 @@ def inter_Int(msg):
     better_Intent = None
     more_Score = 0
 
-    for intent, dados in intents.items():
-        for pattern in dados["patterns"]:
+    for intent, data in intents.items():
+        for pattern in data["patterns"]:
             score = fuzz.ratio(msg.lower(), pattern.lower())
 
             if score > more_Score:
